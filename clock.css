@@ -1,0 +1,47 @@
+.clockContainer
+{
+    width: 50vw;
+    height: 50vw;
+    background-color: red;
+    background: url(clock.webp) no-repeat;
+    background-size:contain;
+
+    margin: auto;
+
+    position: relative;
+}
+
+#hour,#min,#sec
+{
+    position: absolute;
+    background-color: black;
+    border-radius: 5%;
+    border-top: 5px solid black;
+    transform-origin:bottom;
+}
+
+#hour
+{
+    width: 1%;
+    height: 12%;
+    top: 21%;
+    left: 49%;
+}
+
+#min
+{   
+    background-color:rgba(0, 0, 0, 0.721);
+    width: 0.7%;
+    height: 16%;
+    top: 17%;
+    left: 49.1%;
+}
+
+#sec
+{
+    background-color:rgba(255, 0, 0, 0.656);
+    width: 0.5%;
+    height: 22%;
+    top: 11.35%;
+    left: 49.1%;
+}
